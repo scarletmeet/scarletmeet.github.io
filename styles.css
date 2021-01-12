@@ -1,31 +1,26 @@
 html{
       height: 100%;
       background: linear-gradient(to bottom right, #ec7a81, #30295f) fixed;
-      /*background-repeat: no-repeat !important;*/
   }
   
   * {
     box-sizing: border-box;
   }
   
-  /* The browser window */
   .container {
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
     margin: 50px;
     background: #f1f1f1;
-    /*background-image: linear-gradient(to bottom right, #F53844, #302862);*/
   }
   
-  /* Container for columns and the top "toolbar" */
   .row {
     padding: 10px;
     background: #d8d2ca;
     border-top-left-radius: 4px;
     border-top-right-radius: 4px;
   }
-  
-  /* Create three unequal columns that floats next to each other */
+ 
   .column {
     float: left;
   }
@@ -42,14 +37,12 @@ html{
     width: 75%;
   }
   
-  /* Clear floats after the columns */
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
   
-  /* Three dots */
   .dot {
     margin-top: 4px;
     height: 12px;
@@ -59,7 +52,6 @@ html{
     display: inline-block;
   }
   
-  /* Page content */
   .content {
     padding: 75px;
     margin-top: -25px;
