@@ -1,6 +1,6 @@
 html{
-    height: 125%;
-      background-image: linear-gradient(to bottom right, #ec7a81, #30295f);
+      height: 100%;
+      background-image: linear-gradient(to bottom right, #ec7a81, #30295f) fixed;
       background-repeat: no-repeat !important;
   }
   
@@ -99,9 +99,9 @@ p {
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-height: 500px) {
   html {
-    height: 65rem;
+    height: 90rem;
 }
 }
 
