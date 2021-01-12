@@ -95,13 +95,13 @@ p {
         margin-right: auto;
     }
     html {
-        height: 65rem;
+        height: 60rem;
     }
 }
 
 @media only screen and (max-width: 500px) {
   html {
-    height: 70rem;
+    height: 65rem;
 }
 }
 
