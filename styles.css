@@ -86,16 +86,17 @@ p {
         margin-left: auto;
         margin-right: auto;
     }
+    /*
     html {
         height: 60rem;
-    }
+    }*/
 }
-
-@media only screen and (max-height: 500px) {
+/*
+@media only screen and (max-height: 550px) {
   html {
     height: 90rem;
 }
-}
+}*/
 
 .next_links{
     padding:0.6em 2em;
